@@ -1,0 +1,11 @@
+# General
+.*
+!.gitignore
+
+# FreeCAD
+*.fcstd1
+
+# KiCad
+*-backups
+~*.lck
+\#auto_saved_files\#
