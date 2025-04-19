@@ -1,6 +1,7 @@
 # General
 .*
 !.gitignore
+!.submodules
 
 # FreeCAD
 *.fcstd1
@@ -9,6 +10,7 @@
 *-backups
 *.bak
 *.kicad_prl
+_autosave*
 ~*.lck
 \#auto_saved_files\#
 fp-info-cache

@@ -63,7 +63,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=snap"
-				(at 0.254 3.048 0)
+				(at -0.254 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,7 +143,7 @@
 				)
 			)
 			(property "Description_1" "Battery Holder Coin 20 THM Nickel"
-				(at 0 5.334 0)
+				(at 0.762 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -155,7 +155,7 @@
 			(symbol "BAT-HLD-005-THM_0_0"
 				(polyline
 					(pts
-						(xy -3.175 2.54) (xy -1.905 2.54)
+						(xy -1.905 2.54) (xy -0.635 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -167,7 +167,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 3.175) (xy -2.54 1.905)
+						(xy -1.27 3.175) (xy -1.27 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -179,7 +179,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -191,7 +191,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -1.27 -2.54)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -203,7 +203,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -2.54 0)
+						(xy 0 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -225,23 +225,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BAT-HLD-005-THM_1_0"
 				(pin passive line
-					(at -3.81 1.27 0)
-					(length 1.27)
+					(at -5.08 1.27 0)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -249,7 +237,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "P1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -258,8 +246,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 1.27)
+					(at -5.08 -1.27 0)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -267,7 +255,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "P2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -276,7 +264,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 2.54 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -285,7 +273,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "N"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -856,20 +844,36 @@
 		)
 	)
 	(junction
+		(at 151.13 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b45cf44-c797-4c13-81d4-d4451cfe7310")
+	)
+	(junction
 		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d4a3e15-5baf-476f-9194-c734dfb70663")
+		(uuid "d07c4d54-a8c9-41e4-8d44-86819be95347")
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 151.13 88.9)
+			(xy 157.48 86.36) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26f7535e-6817-44ba-a84d-838b45eab055")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ade831-f7d6-44f8-9d1f-26fc355ba160")
 	)
 	(wire
 		(pts
@@ -883,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 157.48 90.17)
+			(xy 157.48 86.36) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -900,6 +904,26 @@
 			(type default)
 		)
 		(uuid "93c66a4e-cf57-40c4-bb08-ee83dcef05a9")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d794dc-8768-4bbf-ae03-d323390278b3")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af110ac0-4740-42e7-a770-1ada246b20ae")
 	)
 	(wire
 		(pts
@@ -1084,7 +1108,7 @@
 	)
 	(symbol
 		(lib_id "-Robot Uprising:BAT-HLD-005-THM")
-		(at 151.13 102.87 270)
+		(at 151.13 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1092,7 +1116,7 @@
 		(dnp no)
 		(uuid "99f1f46d-122e-44e4-aeab-0bb9d1d4d375")
 		(property "Reference" "BT1"
-			(at 143.51 100.584 90)
+			(at 143.51 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1125,7 @@
 			)
 		)
 		(property "Value" "BAT-HLD-005-THM"
-			(at 127.762 103.124 90)
+			(at 127.762 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1134,7 @@
 			)
 		)
 		(property "Footprint" "-Robot Uprising:BAT-HLD-005-THM"
-			(at 158.496 103.124 0)
+			(at 158.496 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 102.87 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 102.87 0)
+			(at 151.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1162,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=snap"
-			(at 154.178 103.124 0)
+			(at 154.178 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +1172,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=eda"
-			(at 137.414 101.854 0)
+			(at 137.414 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1182,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 141.478 102.87 0)
+			(at 141.478 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1192,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 102.616 0)
+			(at 143.51 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1202,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies Inc."
-			(at 139.7 102.87 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1212,7 @@
 			)
 		)
 		(property "MP" "BAT-HLD-005-THM"
-			(at 136.144 103.124 0)
+			(at 136.144 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1222,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6305472&manufacturer=Linx Technologies Inc.&part_name=BAT-HLD-005-THM&search_term=None"
-			(at 162.56 102.87 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1232,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 133.604 102.87 0)
+			(at 133.604 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1242,7 @@
 			)
 		)
 		(property "Description_1" "Battery Holder Coin 20 THM Nickel"
-			(at 156.464 102.87 0)
+			(at 156.464 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,13 +1251,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "N"
 			(uuid "fcee053f-60bd-46c5-8f84-4eca252ac983")
 		)
-		(pin ""
+		(pin "P1"
 			(uuid "0a0fca9b-6473-4d6d-9310-a01f66db8209")
 		)
-		(pin ""
+		(pin "P2"
 			(uuid "a6c0d566-b1e1-41fd-bb62-e0a393f9f87a")
 		)
 		(instances
@@ -1343,7 +1367,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 93.98 90)
+		(at 151.13 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1351,7 +1375,7 @@
 		(dnp no)
 		(uuid "e0708283-6056-47b3-911d-c27f879970d4")
 		(property "Reference" "SW1"
-			(at 147.32 92.202 90)
+			(at 147.32 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1384,7 @@
 			)
 		)
 		(property "Value" "MHPS2285"
-			(at 147.066 94.742 90)
+			(at 147.066 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 93.98 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://MHPS2285V.pdf"
-			(at 146.05 93.98 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1411,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 93.98 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1420,7 @@
 			)
 		)
 		(property "Manufacturer No." "MHPS2285V"
-			(at 151.13 93.98 90)
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1429,7 @@
 			)
 		)
 		(property "Mouser Link" "https://www.mouser.fi/ProductDetail/Apem/MHPS2285V?qs=6hR9CYnVCPAFDBxI9FF22g%3D%3D"
-			(at 151.13 93.98 90)
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1438,7 @@
 			)
 		)
 		(property "Mouser No." " 642-MHPS2285V "
-			(at 151.13 93.98 90)
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
