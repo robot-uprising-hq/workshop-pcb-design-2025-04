@@ -446,8 +446,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Robot Uprising",
+      "AFootLib"
+    ],
+    "pinned_symbol_libs": [
+      "Robot Uprising"
+    ]
   },
   "meta": {
     "filename": "template.kicad_pro",

@@ -591,7 +591,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
+		(symbol "Robot Uprising:TS02-66-70-BK-160-LCR-D"
 			(pin_numbers
 				(hide yes)
 			)
@@ -602,42 +602,35 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "S"
+				(at -7.62 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "TS02-66-70-BK-160-LCR-D"
+				(at -14.478 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Footprint" "Robot Uprising:SW_TS02-66-70-BK-160-LCR-D"
+				(at 1.524 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -646,7 +639,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -655,12 +648,156 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "MF" "Same Sky"
+				(at -1.778 16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "6 x 6 mm, 7 mm Actuator Height, 160 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch"
+				(at 0.508 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0.508 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at -1.016 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-70-BK-160-LCR-D/Same+Sky/view-part/?ref=eda"
+				(at -0.508 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -0.508 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at -0.254 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-70-BK-160-LCR-D/Same+Sky/view-part/?ref=snap"
+				(at -0.508 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TS02-66-70-BK-160-LCR-D"
+				(at -0.508 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -1.27 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at -2.032 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TS02-66-70-BK-160-LCR-D_0_0"
+				(rectangle
+					(start -3.302 3.302)
+					(end 3.302 -3.302)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -669,21 +806,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 -2.54) (xy 0 -3.81)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -692,48 +818,86 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 0.635 -2.2225) (xy 2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "TS02-66-70-BK-160-LCR-D_1_0"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -2.54 3.81 0)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -2.54 -3.81 0)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -843,11 +1007,55 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 172.72 83.82)
+		(end 186.69 109.22)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3805a3a6-020c-4645-a6e2-f6392b8319ac)
+	)
+	(text "If you want more LEDs connect this to the circuit. If not remove this.\n"
+		(exclude_from_sim no)
+		(at 228.092 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9e40224-d2e1-4695-a4a3-bc0493170d8c")
+	)
+	(text "V_bat = 3V\nV_led = 2.1 V\nI_led = 10-30 mA\n\nR = (3V-2.1V)/10 mA = 90 -> 100 Ohm \nR = (3V-2.1V)/20 mA = 45 -> 47 Ohm \n\nThese are different for example different colour or different model"
+		(exclude_from_sim no)
+		(at 161.036 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d89916be-36ca-45c5-9960-fe39ecd05bd4")
+	)
 	(junction
-		(at 151.13 99.06)
+		(at 149.86 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b45cf44-c797-4c13-81d4-d4451cfe7310")
+		(uuid "236dbb0f-a2b0-4945-916f-09a0ba4ae5d3")
+	)
+	(junction
+		(at 152.4 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51913a8b-fe3e-488b-a4d9-1f1ad7f1cc9f")
+	)
+	(junction
+		(at 151.13 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66ea8eb5-4ed2-49e0-bca3-7e335f119858")
 	)
 	(junction
 		(at 151.13 106.68)
@@ -857,7 +1065,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 151.13 86.36)
+			(xy 149.86 97.79) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1081e814-2f03-43db-b123-2d69d496a77f")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
@@ -867,13 +1085,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 152.4 99.06)
+			(xy 153.67 86.36) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33ade831-f7d6-44f8-9d1f-26fc355ba160")
+		(uuid "347a13d9-6067-4d47-8cd0-c3d25caef703")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c197aa0-921b-4fd7-b60d-10a6eb293c64")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dd8ac2-5822-4002-8cfc-41cc8c4865d6")
 	)
 	(wire
 		(pts
@@ -887,13 +1125,53 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 157.48 90.17)
+			(xy 152.4 96.52) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67af383c-a78e-4925-b827-2eca89adfa71")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714303c1-f8e6-4c5a-a7bd-fc6dde2799a5")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813ea6c9-54b9-4742-9eb8-cc972a616460")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8347bd96-5ee9-4cfe-bb1c-031da080de18")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af8670a-70a4-45b5-ba32-725e046d4893")
 	)
 	(wire
 		(pts
@@ -905,25 +1183,95 @@
 		)
 		(uuid "93c66a4e-cf57-40c4-bb08-ee83dcef05a9")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 149.86 99.06) (xy 151.13 99.06)
+			(xy 157.48 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dot)
 		)
-		(uuid "a3d794dc-8768-4bbf-ae03-d323390278b3")
+		(uuid "95fa19e8-c416-41ae-8cc7-61da6e5f5ed2")
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 99.06)
+			(xy 148.59 96.52) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af110ac0-4740-42e7-a770-1ada246b20ae")
+		(uuid "a79ea2a7-baae-4259-a26e-1b02c4a4324b")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e562eb-ac3b-4b5c-94b6-17dd4b017b61")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf29f3b8-37ca-4a9c-9a87-77e0b96ec20f")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b4d74b-fe81-4bda-a766-43c34a965e4f")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80491dd-281d-40d4-b015-c540775b40da")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df591897-b0b0-45e7-9b5f-00229aa16ce6")
+	)
+	(wire
+		(pts
+			(xy 151.13 86.36) (xy 148.59 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1204d56-9124-4dea-93c6-7184c080076f")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f22b58-943b-47e4-a3fc-44db52238492")
 	)
 	(wire
 		(pts
@@ -934,6 +1282,122 @@
 			(type default)
 		)
 		(uuid "f598010d-ab1f-4208-8768-cccb1dc8f732")
+	)
+	(wire
+		(pts
+			(xy 151.13 85.09) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f542e2-c223-49aa-ad12-cb7204618f1e")
+	)
+	(polyline
+		(pts
+			(xy 157.48 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "fc009035-294a-4a63-bc83-1bb03030bd9d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c995b5-edc5-475a-9038-8a89ca038594")
+		(property "Reference" "R2"
+			(at 182.372 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47"
+			(at 182.372 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 182.118 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer No." ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No." ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6772e9f2-a746-4005-bd4b-a2bdbb57171b")
+		)
+		(pin "2"
+			(uuid "61f10e08-08cc-4bf5-bea0-bdac0a5a8a58")
+		)
+		(instances
+			(project "template"
+				(path "/5dc43014-3e3d-4f52-b93f-2dd7b4be6a5c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1107,8 +1571,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 180.34 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "954da6ff-a004-48f3-8d09-643029abc059")
+		(property "Reference" "D2"
+			(at 182.372 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 182.372 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://C5SMF-RJE-CT0W0BB1.pdf"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer No." "C5SMF-RJE-CT0W0BB1"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.fi/ProductDetail/Cree-LED/C5SMF-RJE-CT0W0BB1?qs=sGAEpiMZZMv0DJfhVcWlK937xZ7pf2yKrSt8t2FGj%2FzNgKgRXEyIDg%3D%3D"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No." "941-C5SMFRJECT0W0BB1"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458cc42f-8031-4705-81c8-1939330d832f")
+		)
+		(pin "2"
+			(uuid "7613af05-7df8-45d8-b8dc-a970d456fc26")
+		)
+		(instances
+			(project "template"
+				(path "/5dc43014-3e3d-4f52-b93f-2dd7b4be6a5c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-Robot Uprising:BAT-HLD-005-THM")
-		(at 151.13 104.14 270)
+		(at 151.13 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1116,7 +1685,7 @@
 		(dnp no)
 		(uuid "99f1f46d-122e-44e4-aeab-0bb9d1d4d375")
 		(property "Reference" "BT1"
-			(at 143.51 101.854 90)
+			(at 143.51 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1694,7 @@
 			)
 		)
 		(property "Value" "BAT-HLD-005-THM"
-			(at 127.762 104.394 90)
+			(at 127.762 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,8 +1702,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-Robot Uprising:BAT-HLD-005-THM"
-			(at 158.496 104.394 0)
+		(property "Footprint" "Robot Uprising:BAT-HLD-005-THM"
+			(at 158.496 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 104.14 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 104.14 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1731,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=snap"
-			(at 154.178 104.394 0)
+			(at 154.178 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1741,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-005-THM/Linx/view-part/?ref=eda"
-			(at 137.414 103.124 0)
+			(at 137.414 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1751,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 141.478 104.14 0)
+			(at 141.478 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1761,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 103.886 0)
+			(at 143.51 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1771,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies Inc."
-			(at 139.7 104.14 0)
+			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1781,7 @@
 			)
 		)
 		(property "MP" "BAT-HLD-005-THM"
-			(at 136.144 104.394 0)
+			(at 136.144 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1791,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6305472&manufacturer=Linx Technologies Inc.&part_name=BAT-HLD-005-THM&search_term=None"
-			(at 162.56 104.14 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1801,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 133.604 104.14 0)
+			(at 133.604 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1811,7 @@
 			)
 		)
 		(property "Description_1" "Battery Holder Coin 20 THM Nickel"
-			(at 156.464 104.14 0)
+			(at 156.464 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "90"
+		(property "Value" "47"
 			(at 159.512 95.25 0)
 			(effects
 				(font
@@ -1296,7 +1865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 159.258 93.98 90)
 			(effects
 				(font
@@ -1366,51 +1935,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 151.13 91.44 90)
+		(lib_id "Robot Uprising:TS02-66-70-BK-160-LCR-D")
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0708283-6056-47b3-911d-c27f879970d4")
-		(property "Reference" "SW1"
-			(at 147.32 89.662 90)
+		(uuid "ac388213-110e-4d78-a1fd-bf5d4ad60f7b")
+		(property "Reference" "S1"
+			(at 144.526 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MHPS2285"
-			(at 147.066 92.202 90)
+		(property "Value" "TS02-66-70-BK-160-LCR-D"
+			(at 132.08 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 91.44 0)
+		(property "Footprint" "Robot Uprising:SW_TS02-66-70-BK-160-LCR-D"
+			(at 152.654 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://MHPS2285V.pdf"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Datasheet" ""
 			(at 151.13 91.44 0)
 			(effects
 				(font
@@ -1419,8 +1978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer No." "MHPS2285V"
-			(at 151.13 91.44 90)
+		(property "Description" ""
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,34 +1987,132 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.fi/ProductDetail/Apem/MHPS2285V?qs=6hR9CYnVCPAFDBxI9FF22g%3D%3D"
-			(at 151.13 91.44 90)
+		(property "MF" "Same Sky"
+			(at 149.352 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 642-MHPS2285V "
-			(at 151.13 91.44 90)
+		(property "Description_1" "6 x 6 mm, 7 mm Actuator Height, 160 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch"
+			(at 151.638 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
+		)
+		(property "Package" "None"
+			(at 151.638 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 150.114 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-70-BK-160-LCR-D/Same+Sky/view-part/?ref=eda"
+			(at 150.622 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 150.622 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 150.876 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-70-BK-160-LCR-D/Same+Sky/view-part/?ref=snap"
+			(at 150.622 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TS02-66-70-BK-160-LCR-D"
+			(at 150.622 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 149.86 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 149.098 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "caacc159-afde-42a5-ad60-24b22b6daf09")
 		)
 		(pin "2"
-			(uuid "68f5c80e-6bdf-4d6a-b568-62bbdcdf6bbe")
+			(uuid "fe182272-2ba6-435c-b6c1-b25af7de9c3e")
+		)
+		(pin "4"
+			(uuid "a4a0049c-a0c1-4313-b894-acd4149f71b5")
 		)
 		(pin "1"
-			(uuid "90fadb86-8277-4118-82f2-a02a99bde1fe")
+			(uuid "26cbe06d-75ae-4683-a055-0b7a85386316")
 		)
 		(instances
 			(project ""
 				(path "/5dc43014-3e3d-4f52-b93f-2dd7b4be6a5c"
-					(reference "SW1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
