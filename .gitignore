@@ -1,7 +1,7 @@
 # General
 .*
 !.gitignore
-!.submodules
+!.gitmodules
 
 # FreeCAD
 *.fcstd1

@@ -498,7 +498,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Libraries/Robot Uprising.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -655,7 +655,7 @@
       "model_mode": 4,
       "workbook_filename": "template.wbk"
     },
-    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks",
+    "page_layout_descr_file": "Libraries\\Robot Uprising.kicad_wks",
     "plot_directory": "../manufacturing/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
