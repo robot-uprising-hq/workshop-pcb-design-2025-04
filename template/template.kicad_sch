@@ -864,6 +864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer No." "C5SMF-RJE-CT0W0BB1"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Mouser Link" "https://www.mouser.fi/ProductDetail/Cree-LED/C5SMF-RJE-CT0W0BB1?qs=sGAEpiMZZMv0DJfhVcWlK937xZ7pf2yKrSt8t2FGj%2FzNgKgRXEyIDg%3D%3D"
 			(at 157.48 101.6 0)
 			(effects
@@ -874,15 +883,6 @@
 			)
 		)
 		(property "Mouser No." "941-C5SMFRJECT0W0BB1"
-			(at 157.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer No." "C5SMF-RJE-CT0W0BB1"
 			(at 157.48 101.6 0)
 			(effects
 				(font
@@ -990,7 +990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "90"
 			(at 159.512 95.25 0)
 			(effects
 				(font
