@@ -29,9 +29,15 @@ def main() -> int:
     path_3d_model_dir = path_libraries / '3D-models'
     path_datasheet_dir = path_libraries / 'Datasheets'
 
-    schema_text = paths_zip[1].read_text()
+    # Worksheet
+
+    paths_zip.append(next(path_libraries.glob('*.kicad_wks')))
+
 
     # Datasheets
+
+    schema_text = paths_zip[1].read_text()
+
     datasheet_names: set[str] = set()
     for datasheet in pattern_datasheet.findall(schema_text):
         # This returns duplicates for some reason
