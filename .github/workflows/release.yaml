@@ -1,0 +1,48 @@
+on:
+  push:
+    branches:
+      - main
+      - release-candidate
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    - name: Install Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+    - name: Release parameters
+      id: parameters
+      run: |
+        python -c \
+        'version, _, notes = ${{ toJson(github.event.head_commit.message)}}.partition("\n");\
+        print(f"version={version}");\
+        print("notes=" + repr(notes.strip()));\
+        print(f"name=${{ github.event.repository.name }}_{version}.zip")'\
+        >> "$GITHUB_OUTPUT"
+    - name: Confirm parameters
+      run: |
+        echo '${{ steps.parameters.outputs.version }}'
+        echo '${{ steps.parameters.outputs.notes}}'
+        echo '${{ steps.parameters.outputs.name }}'
+    - name: Create zip file
+      run: python release.py
+    - name: Rename zip file
+      run: mv .release.zip ${{ steps.parameters.outputs.name }}
+    - name: Create release ${{ steps.parameters.outputs.version }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release create \
+        ${{ steps.parameters.outputs.version }} \
+        '${{ steps.parameters.outputs.name }}' \
+        --title ${{ steps.parameters.outputs.version }} \
+        --notes ${{ steps.parameters.outputs.notes}}

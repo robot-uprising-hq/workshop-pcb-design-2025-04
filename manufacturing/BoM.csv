@@ -1,5 +1,0 @@
-"Reference","Value","Footprint","Datasheet","Qty","DNP","Exclude from BOM","Exclude from Board"
-"BT1","2025","","kicad-embed://BAT-HLD-005-THM.pdf","1","","",""
-"D1","LED","LED_THT:LED_D5.0mm","kicad-embed://C5SMF-RJE-CT0W0BB1.pdf","1","","",""
-"R1","R","","~","1","","",""
-"SW1","MHPS2285","","kicad-embed://MHPS2285V.pdf","1","","",""
