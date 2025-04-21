@@ -31,7 +31,7 @@ jobs:
     - name: Confirm parameters
       run: |
         echo '${{ steps.parameters.outputs.version }}'
-        echo '${{ steps.parameters.outputs.notes}}'
+        echo ${{ steps.parameters.outputs.notes}}
         echo '${{ steps.parameters.outputs.name }}'
     - name: Create zip file
       run: python release.py
