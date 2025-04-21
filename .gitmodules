@@ -1,0 +1,3 @@
+[submodule "template/aux-kicad"]
+	path = template/Libraries
+	url = git@github.com:robot-uprising-hq/aux-kicad.git
