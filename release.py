@@ -7,7 +7,8 @@ from pathlib import Path
 
 PATTERNS_PROJECT = ('*.kicad_pro',  # Project
             '*.kicad_sch',  # Schema
-            '*.kicad_pcb')  # Layout
+            '*.kicad_pcb',
+            'README.md')  # Layout
 
 PATTERNS_LIBRARY = ('*.kicad_wks',
                     '*.kicad_sym',
