@@ -5,9 +5,13 @@ from pathlib import Path
 # ======================================================================
 
 
-PATTERNS = ('*.kicad_pro',  # Project
+PATTERNS_PROJECT = ('*.kicad_pro',  # Project
             '*.kicad_sch',  # Schema
             '*.kicad_pcb')  # Layout
+
+PATTERNS_LIBRARY = ('*.kicad_wks',
+                    '*.kicad_sym',
+                    'LICENSE.txt')
 
 PATH_BASE = Path(__file__).parent
 
@@ -23,7 +27,7 @@ def main() -> int:
 
     path_template = PATH_BASE / 'template'
 
-    paths_zip = [next(path_template.glob(pattern)) for pattern in PATTERNS]
+    paths_zip = [next(path_template.glob(pattern)) for pattern in PATTERNS_PROJECT]
 
     path_libraries = path_template / 'Libraries'
     path_3d_model_dir = path_libraries / '3D-models'
@@ -31,8 +35,8 @@ def main() -> int:
 
     # Worksheet
 
-    paths_zip.append(next(path_libraries.glob('*.kicad_wks')))
-
+    for pattern in PATTERNS_LIBRARY:
+        paths_zip.append(next(path_libraries.glob(pattern)))
 
     # Datasheets
 
@@ -52,21 +56,24 @@ def main() -> int:
     for footprint_library, footprint_name in pattern_footprint.findall(schema_text):
         footprints[footprint_library].add(footprint_name)
 
+    paths_3d_models = set()
 
     for footprint_library, footprint_names in footprints.items():
         if (path_footprint_library := (path_libraries
                                        / f'{footprint_library}.pretty')
             ).exists():
             for footprint_name in footprint_names:
+                path_footprint = (path_footprint_library
+                                  / f'{footprint_name}.kicad_mod')
+                paths_zip.append(path_footprint)
                 try:
-                    footprint_text = (path_footprint_library
-                                      / f'{footprint_name}.kicad_mod'
-                                      ).read_text()
+                    footprint_text = path_footprint.read_text()
                 except FileNotFoundError:
                     pass
                 for match in pattern_3d_model.findall(footprint_text):
-                    paths_zip.append(path_3d_model_dir / match)
+                    paths_3d_models.add(path_3d_model_dir / match)
 
+    paths_zip.extend(paths_3d_models)
 
     with zipfile.ZipFile('.release.zip', 'w') as file:
         for path in paths_zip:
