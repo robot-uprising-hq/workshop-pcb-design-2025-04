@@ -76,7 +76,7 @@ def main() -> int:
     paths_zip.extend(paths_3d_models)
 
     with zipfile.ZipFile('.release.zip', 'w',
-                         compression = zipfile.ZIP_LZMA) as file:
+                         compression = zipfile.ZIP_DEFLATED) as file:
         for path in paths_zip:
             file.write(path, arcname = path.relative_to(path_template))
 
